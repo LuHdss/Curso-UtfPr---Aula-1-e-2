@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+:root{
+    --cor-section: #b3cfcf;
+    --font-padrao: "Pacifico";
+    --cor-botao: rgb(132, 66, 194);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color:red;
+}
+
+h1:active{
+    color:var(--cor-botao)
+}
+
+.subtitulo{
+    color: green;
+    display: inline;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#paragrafo{
+    width: 80%;
+    color: blueviolet;
+    font-family: var(--font-padrao);
+}
+
+#paragrafo::first-letter{
+    font-size: 2rem;
+}
+
+section{
+    width: 80%;
+    background-color: var(--cor-section);
+    font-size: 16px;
+    font-family: var(--font-padrao);
+}
+
+#titulo2{
+    font-size: 2em;
+}
+
+input{
+    display: block;
+}
+
+main,footer,header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 20%;
+}
+
+button:hover{
+    background-color: var(--cor-botao);
+}
+
+input:focus{
+    border: solid 3px blue;
+    outline: none;
+}
+
+input::placeholder{
+    background: var(--cor-botao);
+    color: black;
+}
+
+h3::after{
+    content: " programadores!";
+}
+
+@media (max-width: 600px){
+    body{
+        background: blue;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 700px){
+    body{
+        background: white;
+    }
+}
+
+@media (max-width: 700px) and (min-width:600px){
+    body{
+        background: green;
+    }
+}
