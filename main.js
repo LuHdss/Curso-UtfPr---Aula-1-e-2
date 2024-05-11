@@ -23,6 +23,7 @@ let condicaofalse = false;
 console.log(condicao,condicaofalse);
 */
 
+/*
 //Operadores Aritméticos 
 let soma;
 let subtracao;
@@ -60,14 +61,14 @@ if(idade >= 18){
 //Operadores Lógicos
 if(idade < 12){
     console.log("Você é uma criança");
-}else if( idade >= 12 && /* e */ idade <= 18 ){
+}else if( idade >= 12 && idade <= 18 ){
     console.log("Você é jovem");
 }else{
     console.log("Você é adulto");
 }
 
 let numeroDois = 34;
-if(numero > 28 || /* ou*/ numero < 30 ){
+if(numero > 28 || numero < 30 ){
     console.log(numeroDois);
 }
 
@@ -83,7 +84,7 @@ let array = [1,10,12]; // vetor, priemiro elemento"0", segundo elemento "1" e te
 console.log(array[0]); // pode colocar mais do que um so colocar ;
 
 // Estrutura de Repetição
-for(let i = 0; i < 5; i++ /* poderia colocar i = i + 1 */){
+for(let i = 0; i < 5; i++){
     console.log(i);
 }
 
@@ -99,3 +100,5 @@ function somaFuncao(numero1, numero2) {
     somaNumeros = numero1 + numero2;
     return somaNumeros;
 }
+*/
+
